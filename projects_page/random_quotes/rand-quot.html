@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Quote</title>
+  <link rel="stylesheet" href="rn.css" />
+</head>
+<body> 
+  <div class="go_back">
+    <div class="go_back_btn" onclick="history.back()"><img src="/projects_page/pictures/left-long-solid.svg" height="40" width="40" alt=""></div>
+  </div>
+<div class="fullscreen-container">
+  <div class="quote-container">
+    <div class="quote-items">
+      <p class="quote-text">Press the button to get a quote</p>
+      <p class="quote-author"></p>
+      <div class="favorite-btn"></div>
+    </div>
+    <div class="generate-quote-btn">
+      <button class="quote-btn btn">Generate a quote</button>
+    </div>
+    <div class="title-add-delete-favorities">
+      <div class="favorite-title">Your favorite quotes:</div>
+      <div class="favorite-quote"></div>
+    </div>
+    <div class="favorities_container"></div>
+  </div>
+</div>
+  <script src="quotes.js"></script>
+  <script src="rn.js" type="module"></script>
+</body>
+</html>
